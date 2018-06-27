@@ -40,7 +40,7 @@
 
         // [3] Yêu cầu đăng nhập FB
         function RequestLoginFB() {
-            window.location = 'http://graph.facebook.com/oauth/authorize?client_id=310302665968750&scope=public_profile,email,user_likes,user_birthday,user_education_history,user_work_history,user_posts,user_photos,user_location,publish_actions&redirect_uri=http://webcuatoi.com&response_type=token';
+            window.location = 'http://graph.facebook.com/oauth/authorize?client_id=467242083729771&scope=public_profile,email,user_likes,user_birthday,user_education_history,user_work_history,user_posts,user_photos,user_location,publish_actions&redirect_uri=http://webcuatoi.com&response_type=token';
         }
 
         // [4] Hiển thị nút đăng nhập
@@ -63,30 +63,25 @@
 
     </script>
     <div id="fb-root"></div>
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=310302665968750";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=467242083729771&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 
-    <!-- NÚT ĐĂNG NHẬP -->
-    <input id="btb" type="button" value="ĐĂNG NHẬP" onclick="RequestLoginFB()" style="display:none" />
-    <p id="lbl" style="display:none">BẠN ĐÃ ĐĂNG NHẬP THÀNH CÔNG!</p>
-    <br />
 
     <!-- HIỂN THỊ NÚT LUIKE -->
-    <div class="fb-like" data-href="http://webcuatoi.com" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+    <div class="fb-like" data-href="https://thjnhsoajca.github.io/html.html" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
     <br />
     <!-- HIỂN THỊ PAGE -->
-    <div class="fb-page" data-href="https://www.facebook.com/thuvienlaptrinh" data-tabs="timeline" data-width="300" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thuvienlaptrinh" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/thuvienlaptrinh">Thư Viện Lập Trình</a></blockquote></div>
+    <div class="fb-page" data-href="https://www.facebook.com/KidDeepTryy/" data-tabs="timeline" data-width="300" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thuvienlaptrinh" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/thuvienlaptrinh">Thư Viện Lập Trình</a></blockquote></div>
     <br />
     <!-- COMMENT -->
-    <div class="fb-comments" data-href="http://webcuatoi.com" data-numposts="10"></div>
+    <div class="fb-comments" data-href="https://thjnhsoajca.github.io/html.html" data-numposts="10"></div>
 
 
     <p>POST THỬ</p>
