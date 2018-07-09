@@ -50,14 +50,19 @@
    position: relative;
    top:450px;
  }
+ #bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
      </style>
  </head>
       <body style="height: auto;width:auto ;" onkeydown="return false">
-        
-    <audio autoplay>
- 
-   <source src="music.mp3" type="audio/mpeg">
- </audio>
+        <video autoplay muted loop id="bgvideo">
+              <source src="bgvideo.mp4" type="video/mp4">
+            </video>
         <div class="header">
            <center><img src="logokjd.jpg" alt="KidLogo" height=auto width=auto></center>
            <div class="slogan">
@@ -161,9 +166,9 @@
                                          <p><center><div class="card mb-3"></center></p>
                                           <center><img class="card-img-top" src="footer.jpg" alt="Card image cap">
                                           <div class="card-body">
-                                            <center><h5 class="card-title">Copyright © 2018 Nguyễn Phúc Thinh</h5></center>
-                                            <p class="card-text">Bản quyền thuộc về Nguyễn Phúc Thịnh</p>
-                                            <center><p>Bạn có thể contact chúng tôi qua các dịch vụ sau</p></center>
+                                            <center><h5 class="card-title" style=" color:white;">Copyright © 2018 Nguyễn Phúc Thinh</h5></center>
+                                            <p class="card-text" style=" color:white;">Bản quyền thuộc về Nguyễn Phúc Thịnh</p>
+                                            <center><p style=" color:white;">Bạn có thể contact chúng tôi qua các dịch vụ sau</p></center>
                                             <center><a href="#" class="badge badge-primary">Facebook</a></center>
                                           </div>
                                         </div>
