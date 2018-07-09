@@ -23,6 +23,35 @@ if(ev.keyCode==&#39;17&#39;){ checkCtrl=false } }).keydown(function(event){
 if(checkCtrl){
 if(event.keyCode==&#39;85&#39;){ return false; } } })
 </script>
+<script type="text/javascript">
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '657549527725084',
+            xfbml: true,
+            version: 'v2.6'
+        });
+    };
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="fb-page"
+     data-href="https://www.facebook.com/hocwpnet/"
+     data-tabs="messages"
+     data-width="400"
+     data-height="300"
+     data-small-header="true">
+    <div class="fb-xfbml-parse-ignore">
+        <blockquote></blockquote>
+    </div>
+</div>
 <style>
       *{
         margin:0;
