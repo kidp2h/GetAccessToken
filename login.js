@@ -6,7 +6,6 @@ function login(){
     //alert(_Content_Email);
     //alert(_Content_Password);
     if(_Content_Email== "admin" && _Content_Password == "admin"){
-        //alert("Đăng nhập thành công :)");
     }else{
         alert("Đăng nhập thất bại :'(");
     }
